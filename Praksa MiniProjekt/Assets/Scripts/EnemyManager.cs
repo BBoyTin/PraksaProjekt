@@ -33,7 +33,8 @@ public class EnemyManager : MonoBehaviour
         {
             winScreen.SetActive(true);
             Time.timeScale = 0;
-
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
 
     }
